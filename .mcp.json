@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "habits-shape-life": {
+      "type": "http",
+      "url": "https://habit-shape-life.pages.dev/mcp"
+    }
+  }
+}
