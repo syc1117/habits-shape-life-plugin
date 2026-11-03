@@ -22,7 +22,7 @@ Every tool takes a `period` with `from` and `through` dates (`YYYY-MM-DD`, inclu
 
 If a response is too large, use a shorter period or `list_records`.
 
-For weight, calorie-deficit or maintenance questions follow the `calorie-balance` skill. For a review of a week, month or other period follow the `weekly-review` skill.
+For weight, calorie-deficit or maintenance questions follow the `calorie-balance` skill. For a review of a week, month or other period follow the `weekly-review` skill. For lifting progress, stalled exercises or training balance follow the `workout-progress` skill. For keeping routines, streaks or missed days follow the `routine-coaching` skill.
 
 ## Read the numbers correctly
 

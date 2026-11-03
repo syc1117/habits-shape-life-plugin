@@ -1,6 +1,6 @@
 # Habits Shape Life for Claude
 
-Ask Claude about your own Habits Shape Life records. This plugin connects Claude to the Habits Shape Life remote MCP server and adds skills that explain how to read the records correctly and how to analyze them: calorie balance and weight trends, and reviews of a week or month compared with the period before.
+Ask Claude about your own Habits Shape Life records. This plugin connects Claude to the Habits Shape Life remote MCP server and adds skills that explain how to read the records correctly and how to analyze them: calorie balance and weight trends, workout progress, routine consistency, and reviews of a week or month compared with the period before.
 
 ## What it connects to
 
@@ -22,11 +22,13 @@ You need a Habits Shape Life account with synchronized records. The connector wo
 
 ## Skills
 
-| Skill                             | When Claude uses it                                                                                                           |
-| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| `skills/habit-records/SKILL.md`   | Any question about the records: which tool to call, units, missing data, sharing scope                                        |
-| `skills/calorie-balance/SKILL.md` | Losing, gaining or keeping weight: intake, estimated maintenance calories, weight trend and daily targets, every number shown |
-| `skills/weekly-review/SKILL.md`   | Reviewing a week, month or other period against the period before across meals, workouts and routines                         |
+| Skill                              | When Claude uses it                                                                                                           |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `skills/habit-records/SKILL.md`    | Any question about the records: which tool to call, units, missing data, sharing scope                                        |
+| `skills/calorie-balance/SKILL.md`  | Losing, gaining or keeping weight: intake, estimated maintenance calories, weight trend and daily targets, every number shown |
+| `skills/weekly-review/SKILL.md`    | Reviewing a week, month or other period against the period before across meals, workouts and routines                         |
+| `skills/workout-progress/SKILL.md` | Training progress: best sets and estimated one-rep max per exercise, stalled exercises, sets and volume per body part, cardio |
+| `skills/routine-coaching/SKILL.md` | Keeping routines: completion rates, streaks, weekdays with misses, links to desired-self directions, small changes to try     |
 
 ## Tools
 
