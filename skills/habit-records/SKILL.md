@@ -28,6 +28,7 @@ For weight, calorie-deficit or maintenance questions follow the `calorie-balance
 
 - Follow `calculationUnits` in every response. For example `kcal10` is tenths of a kilocalorie and `carbs100` is hundredths of a gram, so divide before reporting.
 - Use the recorded energy. Do not recompute calories from macronutrients.
+- In `list_records`, a food's `amount100` is hundredths of its `amountUnit` (the amount eaten), and its calories and macronutrients are totals for that amount. A null amount means none was entered; say so instead of guessing a portion.
 - Daily active calories are not total energy expenditure. Do not add device daily totals and exercise energy together.
 - Only completed strength sets count. Keep volume (kg × reps) separate from maximum weight.
 - `null` means unknown or not synchronized, never zero. Say which dates have no records instead of filling them in.

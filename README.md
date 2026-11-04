@@ -15,7 +15,7 @@ The plugin runs no local programs, hooks or scripts. It sends nothing on its own
 
 1. Install the plugin, then open its **Connectors** tab and connect **Habits Shape Life**.
 2. Sign in with the account you use in the Habits Shape Life app (Google, Apple or Kakao).
-3. The consent page lists everything that will be shared (meals, workouts, routines, body weight, health-app summaries, desired-self directions, goals and notes). Tick the single agreement box and allow sharing. You can narrow it later under Connected AI.
+3. The consent page lists everything that will be shared (meals, workouts, routines, body weight, health-app summaries, who you want to become and related routines, goals and notes). Tick the single agreement box and allow sharing. You can narrow it later under Connected AI.
 4. Ask a question, for example "How consistently did I train this month?"
 
 You need a Habits Shape Life account with synchronized records. The connector works in Claude chat on the web, desktop and mobile apps, and in Cowork. Claude Code is not supported yet.

@@ -22,7 +22,7 @@ Call both tools with the same period:
 | `get_nutrition_trends` | `days[]`: `intakeKcal`, `carbsG`, `proteinG`, `fatG`, `foodCount`, `activeKcal`; `weights[]`: `day`, `kilograms`, `value`, `unit`; `comparison`: average intake and active calories, weight `change` |
 | `get_workout_trends`   | `exerciseDays`, `bodyPartTrend` (sets, volume), `cardio` (duration, `energyKcal`)                                                                                                                    |
 
-Report numbers in the user's unit. `list_records` with `domain: "nutrition"` gives each meal if the user asks which foods drive the total.
+Report numbers in the user's unit. `list_records` with `domain: "nutrition"` gives each meal, with the amount eaten where it was entered, if the user asks which foods drive the total.
 
 If `exclusions.unavailableScopes` contains `body_weight_not_shared` or `health_summaries_not_shared`, say which numbers are therefore missing and calculate everything else.
 

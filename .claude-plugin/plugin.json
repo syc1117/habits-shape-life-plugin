@@ -2,7 +2,7 @@
   "name": "habits-shape-life",
   "displayName": "Habits Shape Life",
   "version": "2.0.0",
-  "description": "Ask Claude about your own Habits Shape Life meal, workout and routine records. Read-only, with one clear consent.",
+  "description": "Explore your meals, workouts, and routines with AI to better understand your daily patterns.",
   "author": {
     "name": "Habits Shape Life",
     "url": "https://habit-shape-life.pages.dev/en/about/"
