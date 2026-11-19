@@ -9,13 +9,13 @@ Ask Claude about your own Habits Shape Life records. This plugin connects Claude
 | Remote MCP server | `https://habit-shape-life.pages.dev/mcp` (Streamable HTTP, OAuth 2.1 sign-in with your Habits Shape Life account) |
 | Skills            | Instructions only, no scripts (see below)                                                                         |
 
-The plugin runs no local programs, hooks or scripts. It sends nothing on its own; Claude calls the server's tools only when you ask about your records.
+The plugin runs no local programs, hooks or scripts. It sends nothing on its own; Claude may read the records you allowed whenever it considers them relevant to your conversation, even if you did not ask about them directly.
 
 ## Set up
 
 1. Install the plugin, then open its **Connectors** tab and connect **Habits Shape Life**.
 2. Sign in with the account you use in the Habits Shape Life app (Google, Apple or Kakao).
-3. The consent page lists everything that will be shared (meals, workouts, routines, body weight, health-app summaries, who you want to become and related routines, goals and notes). Tick the single agreement box and allow sharing. You can narrow it later under Connected AI.
+3. Review the receiving service and the listed records, then confirm record sharing. Body weight and health-app summaries have a separate, optional checkbox; you can connect without sharing them. Allow the connection, and narrow its scope or disconnect later under Connected AI. Increasing the scope requires reconnecting and granting permission again.
 4. Ask a question, for example "How consistently did I train this month?"
 
 You need a Habits Shape Life account with synchronized records. The connector works in Claude chat on the web, desktop and mobile apps, and in Cowork. Claude Code is not supported yet.
