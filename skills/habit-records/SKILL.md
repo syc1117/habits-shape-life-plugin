@@ -36,7 +36,7 @@ For weight, calorie-deficit or maintenance questions follow the `calorie-balance
 
 ## Respect the sharing scope
 
-- `exclusions.unavailableScopes` lists categories the user did not share, such as `body_weight_not_shared`. Tell the user the data is not shared and that they can reconnect from their AI app to choose a wider scope. Do not guess the missing values.
+- `exclusions.unavailableScopes` lists categories the user did not share, such as `body_weight_not_shared`. Tell the user the data is not shared and how to share it: disconnect this AI under Settings > Connected AI in the Habits Shape Life app or web, then connect again from this AI app and tick the wider options on the consent page. Reconnecting without disconnecting first keeps the old scope. Do not guess the missing values.
 - Notes appear only when `notesIncluded` is true. Never ask the user to type medical records or passwords into a note.
 - A `forbidden` or `unauthenticated` error means the connection was revoked or narrowed. Ask the user to reconnect; do not try other endpoints.
 

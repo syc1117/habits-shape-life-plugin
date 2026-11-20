@@ -15,7 +15,7 @@ The plugin runs no local programs, hooks or scripts. It sends nothing on its own
 
 1. Install the plugin, then open its **Connectors** tab and connect **Habits Shape Life**.
 2. Sign in with the account you use in the Habits Shape Life app (Google, Apple or Kakao).
-3. Review the receiving service and the listed records, then confirm record sharing. Body weight and health-app summaries have a separate, optional checkbox; you can connect without sharing them. Allow the connection, and narrow its scope or disconnect later under Connected AI. Increasing the scope requires reconnecting and granting permission again.
+3. Review the receiving service and the listed records, then confirm record sharing. Body weight and health-app summaries have a separate, optional checkbox; you can connect without sharing them. Allow the connection, and narrow its scope or disconnect later under Connected AI. To share more later, disconnect under Connected AI first, then connect again from Claude and choose the wider scope on the consent page.
 4. Ask a question, for example "How consistently did I train this month?"
 
 You need a Habits Shape Life account with synchronized records. The connector works in Claude chat on the web, desktop and mobile apps, and in Cowork. Claude Code is not supported yet.
@@ -54,11 +54,11 @@ There are no tools that create, edit or delete records, make purchases or show a
 
 ## Troubleshooting
 
-| Symptom                                            | What to do                                                                                                 |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| "Not shared" for weight, health summaries or goals | The scope was narrowed in Connected AI. Disconnect and reconnect from Claude to share every category again |
-| Sign-in fails or tools return `unauthenticated`    | Reconnect the connector. If you revoked the connection in Habits Shape Life, a new sign-in is required     |
-| Empty results                                      | Check that the app has synchronized and that the period and time zone are correct                          |
-| "Quota exceeded"                                   | Ask for a shorter period                                                                                   |
+| Symptom                                            | What to do                                                                                                                                                       |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "Not shared" for weight, health summaries or goals | They were not shared, or the scope was narrowed in Connected AI. Disconnect under Connected AI, then connect again from Claude and tick them on the consent page |
+| Sign-in fails or tools return `unauthenticated`    | Reconnect the connector. If you revoked the connection in Habits Shape Life, a new sign-in is required                                                           |
+| Empty results                                      | Check that the app has synchronized and that the period and time zone are correct                                                                                |
+| "Quota exceeded"                                   | Ask for a shorter period                                                                                                                                         |
 
 Support: https://habit-shape-life.pages.dev/en/about/

@@ -24,7 +24,7 @@ Call both tools with the same period:
 
 Report numbers in the user's unit. `list_records` with `domain: "nutrition"` gives each meal, with the amount eaten where it was entered, if the user asks which foods drive the total.
 
-If `exclusions.unavailableScopes` contains `body_weight_not_shared` or `health_summaries_not_shared`, say which numbers are therefore missing and calculate everything else.
+If `exclusions.unavailableScopes` contains `body_weight_not_shared` or `health_summaries_not_shared`, say which numbers are therefore missing, calculate everything else and tell the user how to share them (see the `habit-records` skill). Do not show a maintenance estimate from an assumed weight change.
 
 ## 3. Report coverage first
 
