@@ -8,7 +8,9 @@
     "url": "https://habit-shape-life.pages.dev/en/about/"
   },
   "homepage": "https://habit-shape-life.pages.dev/en/about/",
+  "repository": "https://github.com/syc1117/habits-shape-life-plugin",
   "privacyPolicyUrl": "https://habit-shape-life.pages.dev/en/privacy/",
+  "termsOfServiceUrl": "https://habit-shape-life.pages.dev/en/terms/",
   "license": "MIT",
   "keywords": [
     "journaling",
